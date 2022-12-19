@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE operateur SYSTEM "file:/C:/Users/user/Desktop/Master/Enset/s7/xml/operateur/operateur.dtd">
+<?xml-stylesheet type="text/xsl" href="operateur.xsl"?>
+<operateur>
+    <client code="c1" nom="hassouni">
+        <abonnement num="123" type="GSM" dateAb="2006-1-11">
+            <facture numFact="F0" dateFact="2022-1-10" montant="1600.98"/>
+            <facture numFact="F0" dateFact="2022-1-13" montant="1200.98"/>
+        </abonnement>
+        <abonnement num="2345" type="FIXE" dateAb="2006-12-1">
+            <facture numFact="F1" dateFact="2022-1-22" montant="845"/>
+        </abonnement>
+    </client>
+    <client code="c2" nom="">
+        <abonnement num="7543" type="GSM" dateAb="2006-12-1">
+            <facture numFact="F2" dateFact="2022-1-11" montant="1120.44"/>
+        </abonnement>
+    </client>
+</operateur>

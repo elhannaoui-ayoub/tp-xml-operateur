@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<operateur xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="file:/C:/Users/user/Desktop/Master/Enset/s7/xml/operateur/operateur.xsd">
+    <client code="1" nom="ABDO">
+        <abonnement numAB="1" dateAB="2022-11-10">
+            <facture numFA="1" dateFA="2022-11-10" montant="2000"/>
+            <facture numFA="2" dateFA="2022-11-15" montant="1999"/>
+        </abonnement>
+        <abonnement numAB="2" dateAB="2022-11-12">
+            <facture numFA="1" dateFA="2022-11-10" montant="2000"/>
+        </abonnement>
+    </client>
+</operateur>
